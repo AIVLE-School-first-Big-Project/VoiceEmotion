@@ -70,11 +70,12 @@ def board_detail(request, pk) -> HttpResponse:
 
     return render(request, 'board/detail.html', context)
 
+
 @csrf_exempt
 @login_required
 def comment(request, board_id):
     board = get_object_or_404(Board, pk=board_id)
-    if request.method == "POST":
+    if request.method == 'POST':
         form = CommentForm(request.POST)
         if form.is_valid():
             comment = form.save(commit=False)

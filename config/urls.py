@@ -23,9 +23,5 @@ urlpatterns = [
     path('', include('main.urls')),
     path('member/', include('member.urls')),
     path('', include('board.urls'), name='board'),
-
-    path(
-        "favicon.ico",
-        RedirectView.as_view(url=staticfiles_storage.url("favicon.ico")),
-    ),
+    path('favicon.ico', RedirectView.as_view(url=staticfiles_storage.url('favicon.ico'))),
 ]

@@ -8,7 +8,6 @@ User = get_user_model()
 
 
 class Board(models.Model):
-    objects = None
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=256, null=False)
     content = models.TextField(null=False)
