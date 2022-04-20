@@ -20,7 +20,7 @@ MFCC를 이용하여 사용자의 기분을 파악한 후 현재 기분을 풀�
 - tensorflow
 - librosa
 
-## Contributor
+## Contributors
 
 - [권윤경](https://github.com/yoonkyeongkwon) ML / AI modeling
 - [김란희](https://github.com/doradorani) Frontend
