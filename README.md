@@ -22,7 +22,9 @@ MFCC를 이용하여 사용자의 기분을 파악한 후 현재 기분을 풀�
 
 ## Contributors
 
-- [권윤경](https://github.com/yoonkyeongkwon) ML / AI modeling
-- [김란희](https://github.com/doradorani) Frontend
-- [배성훈](https://github.com/fish895623) Server Management, Additional
-- [임성현](https://github.com/dlatjdgus95) Backend
+| 제목                                       | 내용                                     |
+|------------------------------------------|----------------------------------------|
+| [권윤경](https://github.com/yoonkyeongkwon) | ML / AI Modeling                       |
+| [김란희](https://github.com/doradorani)     | Frontend                               |
+| [배성훈](https://github.com/fish895623)     | Server Management, Additional Manpower |
+| [임성현](https://github.com/dlatjdgus95)    | Backend                                |
