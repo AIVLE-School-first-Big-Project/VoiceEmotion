@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'main',
     'board',
     'member',
+    'service',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
