@@ -6,6 +6,23 @@
   <div id="navgation">
     <div class="logo">
       <a href="{% url 'main:main' %}"><img src='{% static "\logo.png" %}' /></a>
+        </div>
+        <div class="nav-wrap">
+            <ul class="gnb">
+                <li><a href="{% url 'main:main' %}">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="{% url 'board:notice' %}">Notice</a></li>
+                <li><a href="{% url 'board:mypage' %}">MyPage</a></li>
+            </ul>
+            <ul class="login">
+                {% if user.is_authenticated %}
+                <li><a href="{% url 'member:logout' %}">logout</a></li>
+                {% else %}
+                <li><a href="{% url 'member:login' %}">login</a></li>
+                <li><a href="{% url 'member:signup' %}">Signup</a></li>
+                {% endif%}
+            </ul>
+        </div>
     </div>
     <div class="nav-wrap">
       <ul class="gnb">
