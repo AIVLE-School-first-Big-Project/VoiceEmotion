@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-node@v3.1.1
         with:
           node-version: 16
-          
+
       - name: Html, Css, md, js
         run: |
           npm install -g prettier
@@ -34,7 +34,7 @@ jobs:
         run: |
           pip install oitnb isort
           isort . && oitnb --exclude=migrations .
-          
+
       - name: Commit
         run: |
           git config --global user.name 'ci-cd'

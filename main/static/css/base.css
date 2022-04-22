@@ -1,93 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
-html,body{
-    padding:0;
-    margin:0;
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
 
-ul{
-    list-style: none;
-    margin:0;
+ul {
+  list-style: none;
+  margin: 0;
 }
-a{
-    text-decoration:none;
-    font-family: "Jua", sans-serif;
-    color: #211E3F;
+a {
+  text-decoration: none;
+  font-family: "Jua", sans-serif;
+  color: #211e3f;
 }
-div.wrap{
-    font-family: "Jua", sans-serif;
-    width: 100%;
-    height: auto;
-    font-size:1.6rem;
-    word-break: keep-all;
-    background-color: #E1E3FE;
+div.wrap {
+  font-family: "Jua", sans-serif;
+  width: 100%;
+  height: auto;
+  font-size: 1.6rem;
+  word-break: keep-all;
+  background-color: #e1e3fe;
 }
-div#navgation{
-    display:flex;
-    align-items: center;
-    position:relative;
-    background-color: #8CA8FA;
+div#navgation {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #8ca8fa;
 }
-div.wrap div.logo{
-    max-width:20rem;
-    min-width:10rem;
-    width:20%;
-    height:auto;
+div.wrap div.logo {
+  max-width: 20rem;
+  min-width: 10rem;
+  width: 20%;
+  height: auto;
 }
-div.wrap div.logo a{
-    display:block;
-    width: 100%;
-    height: 100%;
+div.wrap div.logo a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
-div.wrap div.logo a img{
-    width:100%;
-    height:100%;
-    padding:0.5rem 0;
+div.wrap div.logo a img {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0;
 }
-div.nav-wrap{
-    display:flex;
-    position:absolute;
-    right: 0;
+div.nav-wrap {
+  display: flex;
+  position: absolute;
+  right: 0;
 }
-div.nav-wrap ul.gnb{
-    display:flex;
+div.nav-wrap ul.gnb {
+  display: flex;
 }
-div.nav-wrap ul.gnb li{
-    padding:0 1rem;
+div.nav-wrap ul.gnb li {
+  padding: 0 1rem;
 }
-div.nav-wrap ul.login{
-    display:flex;
+div.nav-wrap ul.login {
+  display: flex;
 }
-div.nav-wrap ul.login li{
-    padding:0 1rem;
+div.nav-wrap ul.login li {
+  padding: 0 1rem;
 }
 
 /* footer */
-div.footer{
-    width:100%;
-    height:auto;
-    font-size:1rem;
-    background-color:#9cb6ff;
-    color:#222;
+div.footer {
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  background-color: #9cb6ff;
+  color: #222;
 }
-div.footer ul{
-    width: 100%;
-    display:flex;
-    justify-content: center;
+div.footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-div.footer ul li{
-    padding:1rem 0.5rem;
-    position:relative;
+div.footer ul li {
+  padding: 1rem 0.5rem;
+  position: relative;
 }
-div.footer ul li::after{
-    content:'';
-    display:inline-block;
-    height:11px;
-    border:1px solid #000;
-    position:absolute;
-    top:50%;
-    right: 0;
-    transform: translateY(-50%);
+div.footer ul li::after {
+  content: "";
+  display: inline-block;
+  height: 11px;
+  border: 1px solid #000;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
-div.footer ul li:last-child::after{
-    display: none;
+div.footer ul li:last-child::after {
+  display: none;
 }

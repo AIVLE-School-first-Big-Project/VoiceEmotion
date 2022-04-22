@@ -44,15 +44,15 @@ body {
 }
 
 #n_3 {
-    top: 520px;
-    right: 4px;
-    position: absolute;
-    font-weight: bold;
-    font-size: 20px;
-    letter-spacing: 4px;
-    width: auto;
-    font-family: "Jua", sans-serif;
-    color: rgba(141, 166, 248, 1);
+  top: 520px;
+  right: 4px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 4px;
+  width: auto;
+  font-family: "Jua", sans-serif;
+  color: rgba(141, 166, 248, 1);
 }
 
 #watchingTV {
@@ -61,23 +61,23 @@ body {
 }
 
 #NETFLIXlogo {
-    position: absolute;
-    top: 901px;
-    right: 801px;
-    width: 295px;
-    height: 92px;
+  position: absolute;
+  top: 901px;
+  right: 801px;
+  width: 295px;
+  height: 92px;
 }
 
 #t_1 {
-    position: absolute;
-    top: 886px;
-    right: 501px;
-    width: 292px;
-    height: 117px;
-    font-family: "Jua", sans-serif;
-    font-style: normal;
-    font-size: 100px;
-  }
+  position: absolute;
+  top: 886px;
+  right: 501px;
+  width: 292px;
+  height: 117px;
+  font-family: "Jua", sans-serif;
+  font-style: normal;
+  font-size: 100px;
+}
 
 #t_2 {
   top: 1353px;
@@ -108,12 +108,12 @@ a {
   top: 1500px;
 }
 
-.TOP10-form .scrollcard .card > img{
-    width: 150px;
-    height: auto;
-    border-radius: 8px;
-    display: block;
-    margin:0 auto;
+.TOP10-form .scrollcard .card > img {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
 }
 
 .TOP10-form .scrollcard .card h1 {
@@ -128,20 +128,18 @@ a {
   text-align: center;
 }
 
-body > div > div.wrapper > section > div.TOP10-form > div.scroll > div > button.slick-prev.slick-arrow{
+body > div > div.wrapper > section > div.TOP10-form > div.scroll > div > button.slick-prev.slick-arrow {
   display: none !important;
 }
 
-body > div > div.wrapper > section > div.TOP10-form > div.scroll > div > button.slick-next.slick-arrow{
+body > div > div.wrapper > section > div.TOP10-form > div.scroll > div > button.slick-next.slick-arrow {
   display: none !important;
 }
 
-body > div > div.wrapper > section > div.TOP10-form > div.scroll > div > div{
+body > div > div.wrapper > section > div.TOP10-form > div.scroll > div > div {
   transform: translateY(172px);
 }
 
-
-
-body > div > div.wrapper > section > div.TOP10-form > div.scroll > div{
+body > div > div.wrapper > section > div.TOP10-form > div.scroll > div {
   min-height: 600px;
 }

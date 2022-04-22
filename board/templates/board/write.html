@@ -10,7 +10,7 @@
       <div class="title">
         <dl>
           <dt>제목</dt>
-          <dd><input type="text"/></dd>
+          <dd><input type="text" /></dd>
         </dl>
       </div>
       <div class="content">
@@ -24,8 +24,9 @@
       <div class="button">
         <a href="{% url 'main:main' %}">
           <button class="btn btn-primary" type="button" class="on">취소</button>
-        <a href="{% url 'board:board' %}">
-          <button class="btn btn-primary" type="submit" class="on">저장</button>
+          <a href="{% url 'board:board' %}">
+            <button class="btn btn-primary" type="submit" class="on">저장</button>
+          </a>
         </a>
       </div>
     </form>

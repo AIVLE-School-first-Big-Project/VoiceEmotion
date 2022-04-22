@@ -1,108 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
-
-.wrapper{
-    width: 100%;
-    height: auto;
-    min-height: 100%;
-    padding-bottom: 0 10px;
+.wrapper {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 0 10px;
 }
 
-.wrapper-box{
-    width: 80%;
-    min-height: 100%;
-    border-radius: 59px 59px 26px 26px;
-    background: #F6F7FF;
-    margin: 20px auto;
-    align-content: center;
-    position: relative;
+.wrapper-box {
+  width: 80%;
+  min-height: 100%;
+  border-radius: 59px 59px 26px 26px;
+  background: #f6f7ff;
+  margin: 20px auto;
+  align-content: center;
+  position: relative;
 }
 
-
-
-.table{
-    border-spacing: 0;
-    width: 90%;
-    margin: 0 auto;
-    padding: 2rem 0;
+.table {
+  border-spacing: 0;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
 }
 
-.table > thead{
-    background: #5D6A8FC2;
-    height: 45px;
+.table > thead {
+  background: #5d6a8fc2;
+  height: 45px;
 }
 
-.table > thead > tr > th{
-    color: #F6F7FF;
-    font-family: 'Jua', sans-serif;
-    font-weight: 100 !important;
-    font-size: 20px;
+.table > thead > tr > th {
+  color: #f6f7ff;
+  font-family: "Jua", sans-serif;
+  font-weight: 100 !important;
+  font-size: 20px;
 }
 
-.table > thead > tr > th:nth-child(4){
-    border-radius: 0px 15px 0px 0px;
+.table > thead > tr > th:nth-child(4) {
+  border-radius: 0px 15px 0px 0px;
 }
-.table > thead > tr > th:nth-child(1){
-    border-radius: 15px 0px 0px 0px;
-}
-
-
-.table > tbody{
-    background: #D4DFFF42;
+.table > thead > tr > th:nth-child(1) {
+  border-radius: 15px 0px 0px 0px;
 }
 
-.table > tbody > tr > td{
-    color: #171717;
-    font-family: 'Jua', sans-serif;
-    font-weight: 100 !important;
-    font-size: 20px;
-    text-align: center;
+.table > tbody {
+  background: #d4dfff42;
 }
 
-
-
-.table > tbody > tr > td:nth-child(4){
-    width: 150px;
+.table > tbody > tr > td {
+  color: #171717;
+  font-family: "Jua", sans-serif;
+  font-weight: 100 !important;
+  font-size: 20px;
+  text-align: center;
 }
 
-.table > tbody > tr > td:nth-child(3){
-    width: 150px;
+.table > tbody > tr > td:nth-child(4) {
+  width: 150px;
 }
 
-.table > tbody > tr > td:nth-child(2){
-    width: 1000px;
+.table > tbody > tr > td:nth-child(3) {
+  width: 150px;
 }
 
-.table > tbody > tr > td:nth-child(1){
-    width: 100px;
+.table > tbody > tr > td:nth-child(2) {
+  width: 1000px;
 }
 
-a{
-    text-decoration: none !important;
+.table > tbody > tr > td:nth-child(1) {
+  width: 100px;
 }
 
-
-
-.pagination{
-    display: flex;
-    position: absolute;
-    bottom: 3%;
-    left: 50%;
-    transform: translateX(-100%);
+a {
+  text-decoration: none !important;
 }
 
+.pagination {
+  display: flex;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-100%);
+}
 
-.write-button{
-    display: flex;
-    position: absolute;
-    bottom: 10%;
-    right: 0%;
-    transform: translateX(-100%);
-    border: none;
-    font-family:  'Jua', sans-serif;
-    font-size: 18px;
-    background: #9BB3DB;
-    border-radius: 8px;
-    padding: 5px 20px;
-    color: #171717;
+.write-button {
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+  transform: translateX(-100%);
+  border: none;
+  font-family: "Jua", sans-serif;
+  font-size: 18px;
+  background: #9bb3db;
+  border-radius: 8px;
+  padding: 5px 20px;
+  color: #171717;
 }

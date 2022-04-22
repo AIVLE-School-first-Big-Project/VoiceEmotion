@@ -1,101 +1,94 @@
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
-
-.board_write{
-    width: 80%;
-    min-height: 100%;
-    border-radius: 59px 59px 26px 26px;
-    background: #F6F7FF;
-    margin: 20px auto;
-    align-content: center;
-    position: relative;
-    font-family: 'Jua', sans-serif;
-    padding: 20px;
+.board_write {
+  width: 80%;
+  min-height: 100%;
+  border-radius: 59px 59px 26px 26px;
+  background: #f6f7ff;
+  margin: 20px auto;
+  align-content: center;
+  position: relative;
+  font-family: "Jua", sans-serif;
+  padding: 20px;
 }
-.board_title{
-    font-size: 40px;
-    text-align: center;
+.board_title {
+  font-size: 40px;
+  text-align: center;
 }
 
 .board_write .title {
-    padding: 15px;
+  padding: 15px;
 }
 
-.board_write .content{
-    border-top: 1px solid #000;
-    padding-top: 15px;
+.board_write .content {
+  border-top: 1px solid #000;
+  padding-top: 15px;
 }
 
 .board_write .title dt,
 .board_write .title dd {
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
 }
 
-
-.board_write .title input[type="text"]{
-    padding: 10px;
-    box-sizing: border-box;
+.board_write .title input[type="text"] {
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-.board_write .cont textarea{
-    display: block;
-    width: 100%;
-    padding: 15px;
-    height: 300px;
-    box-sizing: border-box;
-    border: 0;
-    resize: vertical;
+.board_write .cont textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  height: 300px;
+  box-sizing: border-box;
+  border: 0;
+  resize: vertical;
 }
 
-
-.button > a:nth-child(2) > button{
-    display: flex;
-    position: absolute;
-    bottom: 5%;
-    right: 6%;
-    border: none;
-    font-family:  'Jua', sans-serif;
-    font-size: 18px;
-    background: #9BB3DB;
-    border-radius: 8px;
-    padding: 5px 20px;
-    color: #171717;
+.button > a:nth-child(2) > button {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  right: 6%;
+  border: none;
+  font-family: "Jua", sans-serif;
+  font-size: 18px;
+  background: #9bb3db;
+  border-radius: 8px;
+  padding: 5px 20px;
+  color: #171717;
 }
 
-
-.button > a:nth-child(1) > button{
-    display: flex;
-    position: absolute;
-    bottom: 5%;
-    left: 6%;
-    border: none;
-    font-family:  'Jua', sans-serif;
-    font-size: 18px;
-    background: none;
-    border-radius: 8px;
-    padding: 5px 20px;
-    color: #707070;
+.button > a:nth-child(1) > button {
+  display: flex;
+  position: absolute;
+  bottom: 5%;
+  left: 6%;
+  border: none;
+  font-family: "Jua", sans-serif;
+  font-size: 18px;
+  background: none;
+  border-radius: 8px;
+  padding: 5px 20px;
+  color: #707070;
 }
 
-.attachment{
-    display: flex;
-    position: absolute;
-    bottom: 15%;
-    font-family: 'Jua', sans-serif;
-    padding: 5px 20px;
-    color: #171717;
+.attachment {
+  display: flex;
+  position: absolute;
+  bottom: 15%;
+  font-family: "Jua", sans-serif;
+  padding: 5px 20px;
+  color: #171717;
 }
 
-
-
-.attachment > p{
-    left: 0%;
+.attachment > p {
+  left: 0%;
 }
 
-
-.attachment > input[type=file]{
-    right: 0%;
-    vertical-align: middle;
+.attachment > input[type="file"] {
+  right: 0%;
+  vertical-align: middle;
 }

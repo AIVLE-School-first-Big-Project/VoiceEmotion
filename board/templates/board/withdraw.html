@@ -6,34 +6,23 @@
     <h2>Mypage</h2>
     <ul>
       <li>
-        <a href="{% url 'board:mypage' %}"
-          ><i class="nav-link"></i>내가 쓴 글</a
-        >
+        <a href="{% url 'board:mypage' %}"><i class="nav-link"></i>내가 쓴 글</a>
       </li>
       <li>
-        <a href="{% url 'board:change_password' %}"
-          ><i class="nav-link"></i>회원정보수정</a
-        >
+        <a href="{% url 'board:change_password' %}"><i class="nav-link"></i>회원정보수정</a>
       </li>
       <li>
-        <a href="{% url 'board:withdraw' %}"
-          ><i class="nav-link"></i>회원탈퇴</a
-        >
+        <a href="{% url 'board:withdraw' %}"><i class="nav-link"></i>회원탈퇴</a>
       </li>
       <li>
-        <a href="/admin"
-          ><i class="nav-link"></i>관리자페이지</a
-        >
+        <a href="/admin"><i class="nav-link"></i>관리자페이지</a>
       </li>
     </ul>
   </div>
   <div class="main_content">
     <div class="container">
       <!-- Start: Login Form Clean -->
-      <section
-        class="login-clean"
-        style="padding: 0px; padding-bottom: 80px; padding-top: 80px"
-      >
+      <section class="login-clean" style="padding: 0px; padding-bottom: 80px; padding-top: 80px">
         <form method="post" style="width: 440px; max-width: 440px">
           {% csrf_token %} {% include "form_errors.html" %}
           <h2 class="visually-hidden">Login Form</h2>
@@ -41,28 +30,13 @@
           <div class="mb-3"></div>
           <p>안전한 회원탈퇴를 위해, 비밀번호를 확인해 주세요.</p>
           <ul>
-            <li style="font-size: 11px">
-              비밀번호 확인 후 아이디는 즉시 탈퇴됩니다.
-            </li>
+            <li style="font-size: 11px">비밀번호 확인 후 아이디는 즉시 탈퇴됩니다.</li>
           </ul>
           <div class="mb-3">
-            <input
-              class="form-control"
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Password"
-              value="{{ form.username.value | default_if_none:'' }}"
-            />
+            <input class="form-control" type="password" name="password" id="password" placeholder="Password" value="{{ form.username.value | default_if_none:'' }}" />
           </div>
           <div class="mb-3">
-            <button
-              class="btn btn-primary d-block w-100"
-              type="submit"
-              style="margin-right: 0px; margin-left: 0px"
-            >
-              회원탈퇴
-            </button>
+            <button class="btn btn-primary d-block w-100" type="submit" style="margin-right: 0px; margin-left: 0px">회원탈퇴</button>
           </div>
         </form>
       </section>

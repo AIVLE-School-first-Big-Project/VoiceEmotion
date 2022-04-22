@@ -1,6 +1,4 @@
-{% extends "base.html" %}
-{% load static %}
-{% block content %}
+{% extends "base.html" %} {% load static %} {% block content %}
 <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
 <div class="wrapper">
   <div class="sidebar">
@@ -16,9 +14,7 @@
         <a href="{% url 'board:withdraw' %}"><i class="nav-link"></i>회원탈퇴</a>
       </li>
       <li>
-        <a href="/admin"
-          ><i class="nav-link"></i>관리자페이지</a
-        >
+        <a href="/admin"><i class="nav-link"></i>관리자페이지</a>
       </li>
     </ul>
   </div>
@@ -47,8 +43,7 @@
           </tbody>
         </table>
       </div>
-      <nav
-        class="d-sm-flex d-md-flex d-lg-flex justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center">
+      <nav class="d-sm-flex d-md-flex d-lg-flex justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center">
         <ul class="pagination">
           <li class="page-item">
             <a class="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a>
@@ -61,9 +56,7 @@
           <li class="page-item">
             <a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a>
           </li>
-          <a href="{%url 'board:write' %}" class="btn btn-primary" type="button"
-        >글쓰기</a
-      >
+          <a href="{%url 'board:write' %}" class="btn btn-primary" type="button">글쓰기</a>
         </ul>
       </nav>
     </div>

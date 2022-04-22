@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
-.wrapper{
+.wrapper {
   height: auto;
   min-height: 100%;
   padding-bottom: 0 10px;
 }
-
 
 #loginform {
   font-family: "Jua", sans-serif;
@@ -18,7 +17,6 @@ body {
   background: #8ca8fa 0% 0% no-repeat padding-box;
   background-size: cover;
 }
-
 
 .login-form {
   font-family: "Jua", sans-serif;
