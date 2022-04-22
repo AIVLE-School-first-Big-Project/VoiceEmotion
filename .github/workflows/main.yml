@@ -23,7 +23,6 @@ jobs:
       - uses: actions/setup-node@v3.1.1
         with:
           node-version: 16
-          cache: npm
           
       - name: Html, Css, md, js
         run: |
