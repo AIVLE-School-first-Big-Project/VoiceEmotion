@@ -20,12 +20,24 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3.1.1
+        with:
+          node-version: 16
+          cache: npm
+          
+      - name: Html, Css, md, js
+        run: |
+          npm install -g prettier
+          make html
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Python
         run: |
           pip install oitnb isort
           isort . && oitnb --exclude=migrations .
+          
+      - name: Commit
+        run: |
           git config --global user.name 'ci-cd'
           git config --global user.email 'ci-cd@users.noreply.github.com'
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
