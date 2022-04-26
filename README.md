@@ -8,6 +8,15 @@ https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 
 ---
 
+## Submodule 불러오기
+
+```bash
+git submodule init
+git submodule update
+```
+
+---
+
 사용자의 기분에 따라 알맞는 영화 추천 시스템
 
 ---
