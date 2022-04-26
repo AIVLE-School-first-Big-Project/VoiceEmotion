@@ -3,3 +3,9 @@ python:
 
 html:
 	prettier --bracket-same-line --write --print-width 240 .
+
+initsub:
+	git submodule init &&	git submodule update
+
+updatesub:
+	git submodule foreach git pull origin master

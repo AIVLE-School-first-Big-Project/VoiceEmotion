@@ -10,11 +10,18 @@ https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 
 ## Submodule 불러오기
 
+### 초기 설정
+
 ```bash
 git submodule init
 git submodule update
 ```
 
+### backend 업데이트
+
+```bash
+git submodule foreach git pull origin master
+```
 ---
 
 사용자의 기분에 따라 알맞는 영화 추천 시스템
