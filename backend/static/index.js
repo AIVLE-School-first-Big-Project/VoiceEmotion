@@ -12,7 +12,7 @@
  *********************************/
 let post_address = "/receive";
 let delay = 2000;
-let save_file_format = `${new Date().toString()}.wav`;
+let save_file_format = `${new Date().getTime()}.wav`;
 let constraintObj = {audio: true};
 
 
